@@ -2,7 +2,7 @@
 This plugin used for rating custom post  name `providers`
  for creating post type copy and past below code in # function.php
  
- `
+ ```
  function create_posttype() {
  
     register_post_type( 'providers',
@@ -20,4 +20,4 @@ This plugin used for rating custom post  name `providers`
 }
 // Hooking up our function to theme setup
 add_action( 'init', 'create_posttype' );
- `
+ ```
